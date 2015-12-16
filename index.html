@@ -1,72 +1,211 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
 
-<!DOCTYPE html>
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Steve Caldwell - Home</title>
 
-    <title>Steve Caldwell -- Home</title>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/avatar.jpg">
 
-    <!-- Bootstrap core CSS -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/cover.css" rel="stylesheet">
-    <link href="assets/custom.css" rel="stylesheet">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="assets/avatar.jpg">
 
-    <!-- Custom styles for this template -->
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/avatar.jpg">
+    <meta name="msapplication-TileColor" content="#3372DF">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="shortcut icon" href="assets/avatar.jpg">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
   </head>
-
   <body>
-
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <p class="lead">
-              <a href="#"><img class="avatar" src="assets/avatar.jpg"/></a>
-            </p>
-            <h1>Steve Caldwell </h1>
-            <h2>Co-Founder &amp; CEO at <a href="https://www.straphq.com" target="_blank">Strap</a></h2>
+    <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
+      <main class="mdl-layout__content">
+        <div class="demo-blog__posts mdl-grid">
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--8-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
             </div>
-                      <h3 class="lead"><a href="https://twitter.com/stevecaldwell">Twitter</a></h3>
-          <h3 class="lead"><a href="https://linkedin.com/in/caldwellsteve">LinkedIn</a></h3>
-          <h3 class="lead"><a href="https://medium.com/@stevecaldwell">Writing</a></h3>
-          <h3 class="lead"><a href="http://www.amazon.com/registry/wishlist/3B1HE7NHRZ60Z/ref=cm_sw_r_tw_ws_i03Bwb127PWQP">Wish List</a></h3>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <strong>Hey there, I'm Steve. This is my family. We currently reside in Cincinnati, Ohio with our old Wirehaired Daschund Reggie. When I'm not spending time with them, I'm trying my best to make a dent in the universe through revolutionary Internet products.</strong>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
+            
+            <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
+              <img src="assets/avatar.jpg">
+
+            <h3>Steve Caldwell</h3>
+            <strong>Co-Founder &amp; CEO at <a href="https://www.straphq.com" target="_blank">Strap</a></strong>
+              <div class="mdl-mini-footer--left-section">
+              <br/>
+              <span><a href="https://www.twitter.com/stevecaldwell" target="_blank">Twitter</a></span><br/>
+              <span><a href="https://www.linkedin.com/in/caldwellsteve" target="_blank">LinkedIn</a></span><br/>
+              <span><a href="https://www.facebook.com/stevecaldwell" target="_blank">Facebook</a></span><br/>
+              <span><a href="https://www.medium.com/@stevecaldwell" target="_blank">Medium</a></span><br/>
           </div>
 
-
-
-
-
-           
-
-          <div class="mastfoot">
+            </div>
             
           </div>
+         <div class="mdl-card amazing mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__title mdl-color-text--grey-50">
+              <h3>Thought Leadership</h3>
+            </div>
+            <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+            <span><h4>Articles</h4>
+              <ul>
+              <li><a href="http://www.imediaconnection.com/content/39350.asp?utm_content=22852389&utm_medium=social&utm_source=twitter" target="_blank">"Developing a Human-First Personalization Strategy"</a> - <i>iMediaConnection</i> - 20 Oct 2015</li>
+              <li><a href="http://www.marketingprofs.com/opinions/2015/27575/how-apple-watch-and-other-wearables-are-transforming-marketing" target="_blank">"How Apple Watch and Other Wearables are Transforming Marketing"</a> - <i>MarketingProfs</i> - 4 May 2015</li>
+              <li><a href="http://techcrunch.com/2015/01/23/what-we-didnt-see-from-wearables-at-ces/" target="_blank">"What We Didn't See From Wearables at CES"</a> - <i>TechCrunch</i> - 23 Jan 2015</li>
+              
+              <li><a href="http://insights.wired.com/profiles/blogs/think-bigger-skeptics-wearable-tech-will-change-the-world#axzz3OLYzZWiQ" target="_blank">"Think Bigger Skeptics: Wearable Tech Will Change the World"</a> - <i>Wired</i> - 9 Jan 2015</li>
+              </ul>
+              <h4>Video</h4>
+              <ul>
+              <li><a href="https://www.youtube.com/watch?v=CF3MgNn1huk" target="_blank">Panel with Pebble and Weather Company</a> - August 2015</li>
+              <li><a href="https://www.youtube.com/watch?v=PvNOts_sQm8" target="_blank">TechOhio Spotlight Video</a> - June 2015</li>
+              <li><a href="https://www.youtube.com/watch?v=iG8Gnf5CD9s" target="_blank">Pebble Developer Retreat 2014 - Invited Presentation</a></li>
+              </ul>
 
+            </div>
+
+              </span>
+
+            </div>
+          <div class="mdl-card amazing mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__title mdl-color-text--grey-50">
+              <h3>The Journey</h3>
+            </div>
+            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+
+<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">What</th>
+      <th class="mdl-data-table__cell--non-numeric">Where</th>
+      <th class="mdl-data-table__cell--non-numeric">When</th>
+      <th class="mdl-data-table__cell--non-numeric">Key Takeaways</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Co-Founder &amp; CEO</td>
+      <td class="mdl-data-table__cell--non-numeric"><a href="https://www.straphq.com" target="_blank">Strap</a></td>
+      <td class="mdl-data-table__cell--non-numeric">'14-Now</td>
+      <td class="mdl-data-table__cell--non-numeric">Building a world class product, vision,  and team.</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Founder &amp; CEO</td>
+      <td class="mdl-data-table__cell--non-numeric"><a href="http://www.crosstek.net" target="_blank">crosstek</a></td>
+      <td class="mdl-data-table__cell--non-numeric">'08-'14</td>
+      <td class="mdl-data-table__cell--non-numeric">Apps for warzones &amp; volcanoes. Successful exit.</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Software Developer</td>
+      <td class="mdl-data-table__cell--non-numeric"><a href="https://www.hpc.mil" target="_blank">DoD High Performance Computing</a></td>
+      <td class="mdl-data-table__cell--non-numeric">'11-'12</td>
+      <td class="mdl-data-table__cell--non-numeric">Built OAuth web apps on DoD supercomputers.</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Web Application Developer</td>
+      <td class="mdl-data-table__cell--non-numeric"><a href="http://www.erdc.usace.army.mil" target="_blank">US Army Corps of Engineers R&amp;D</a></td>
+      <td class="mdl-data-table__cell--non-numeric">'09-'11</td>
+      <td class="mdl-data-table__cell--non-numeric">Internal apps; increased org efficiency by 80%.</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Helpdesk Analyst</td>
+      <td class="mdl-data-table__cell--non-numeric"><a href="http://www.usace.army.mil" target="_blank">US Army Corps of Engineers</a></td>
+      <td class="mdl-data-table__cell--non-numeric">'08-'09</td>
+      <td class="mdl-data-table__cell--non-numeric">Hustled to a dev job in &lt; 1 year. Always network.</td>
+    </tr>
+  </tbody>
+</table>            
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <strong>"If you're changing the world, you're working on important things. You're excited to get up in the morning." - Larry Page</strong>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-card amazing mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__title mdl-color-text--grey-50">
+              <h3>Get In Touch</h3>
+            </div>
+            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+            <span>
+              I'm open to speaking engagements, consulting opportunities, or pro-bono charity work. 
+              <br/>
+              If you're a startup founder, I would love to hear your story and share my experiences. <br/> If you think I can be helpful, the best way to get in touch with me is by sending a note to <a href="mailto:hi@scald.io">hi@scald.io</a>. 
+              <br/><Br/>
+              <p>
+              I'm generally most helpful in the following areas:
+              </p>
+              <span>
+              <ul>
+              <li>Software development strategy</li>
+              <li>Building a product that will scale</li>
+              <li>How to hire the right tech people</li>
+              <li>Networking your way to success</li>
+              <li>Startup/Fundraising general advice</li>
+              <li>How to tell when it is time to move on</li>
+              </ul>
+              </span>
+              </span>
+            </div>
+            
+          </div>
+          
         </div>
 
-      </div>
-
+      </main>
+      <div class="mdl-layout__obfuscator"></div>
     </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+   
+    <script src="../../material.min.js"></script>
   </body>
+  
 </html>
